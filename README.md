@@ -2,7 +2,7 @@
 
 AnirudhBV.JS - my custom portfolio page.
 
-Live Project Link ▶️ :
+Live Project Link ▶️ : https://anidev.vercel.app/
 
 ## Description
 
