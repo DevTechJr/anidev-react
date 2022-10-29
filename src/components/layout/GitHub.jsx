@@ -78,9 +78,7 @@ const GitHub = () => {
                     <div className="stat-title text-md text-white">
                       Location
                     </div>
-                    <div className="text-lg stat-value">
-                      Brampton, ON, Canada
-                    </div>
+                    <div className="text-lg stat-value">Toronto, Canada</div>
                   </div>
                 )}
                 {userData?.location && (

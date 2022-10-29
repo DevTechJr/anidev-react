@@ -13,7 +13,7 @@ import {
 
 const CTA1 = () => {
   return (
-    <aside class="overflow-hidden sm:grid sm:grid-cols-2 my-16 p-8 bg-primary rounded-2xl">
+    <aside class="overflow-hidden sm:grid sm:grid-cols-2 my-10 p-8 bg-primary rounded-2xl">
       {/* <div class=" md:p-12 lg:px-16 bg-white lg:py-24 p-10 bg-white rounded-xl">
         <div class="mx-auto max-w-xl text-center sm:text-left">
           <h2 class="text-2xl font-bold text-gray-900 dark:text-white md:text-3xl">
@@ -50,9 +50,11 @@ const CTA1 = () => {
                   "I'm a web designer.",
                   "I love using Tailwind CSS.",
                   "I'm an artist(ish).",
+                  "I'm an expert procrastinator.",
                   "I'm a die hard Allu Arjun fan.",
                   "I love to listen to music.",
                   "I'm also a Pythonista.",
+                  "#ThaggedeLe",
                   "Learn more about me below!",
                 ],
                 autoStart: true,
@@ -62,7 +64,7 @@ const CTA1 = () => {
             />
           </span>
 
-          <p className="mb-2 text-base text-gray-700 md:text-lg md:text-center">
+          <p className="mb-2 text-base text-gray-700 md:text-lg text-center">
             I'm a full-stack developer who builds stuff for others. I enjoy
             creating solutions for problems found across the spectrum of the
             internet. You can find out more about me below!
@@ -119,9 +121,9 @@ const CTA1 = () => {
             </a> */}
             <a
               href="contact"
-              class="relative inline-block group focus:outline-none focus:ring focus:ring-primary font-medium tracking-wide text-white transition-colors duration-200 bg-primary rounded-xl px-4 py-3 w-3/4 mt-8 flex items-center justify-center hover:-translate-y-2 hover:drop-shadow-3xl duration-500 ease-in-out hover:bg-secondary outline outline-offset-2 outline-primary"
+              class="relative inline-block group focus:outline-none focus:ring focus:ring-primary font-medium tracking-wide text-white transition-colors duration-200 bg-primary rounded-xl px-4 py-3 lg:w-3/4 md:w-full mt-8 flex items-center justify-center hover:-translate-y-2 hover:drop-shadow-3xl duration-500 ease-in-out hover:bg-secondary outline outline-offset-2 outline-primary"
             >
-              <span class="relative z-10 block px-12 py-3 font-medium tracking-wide text-white transition bg-primary rounded group-hover:scale-105 text-xl flex items-center">
+              <span class="relative z-10 block px-12 py-3 font-medium tracking-wide text-white transition bg-primary rounded group-hover:scale-105 lg:text-xl md:text-md text-md flex lg:flex-row md:flex-row flex-col items-center justify-center text-center">
                 <FaHandsHelping className="text-white text-2xl font-bold mx-2 normal-case" />
                 Let's Get In Touch!
               </span>
